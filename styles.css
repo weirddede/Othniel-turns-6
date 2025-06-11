@@ -1,31 +1,22 @@
 body {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-  background: linear-gradient(to right, #1E90FF, #FF0000, #32CD32);
-  margin: 0;
-  padding: 0;
-  text-align: center;
+  background-color: #0c1445;
   color: white;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  padding: 50px;
 }
 
-header {
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.3);
+h1 {
+  font-size: 3em;
+  color: #ff0000;
 }
 
-.details, .activities {
-  margin: 20px;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
+h2 {
+  font-size: 1.5em;
+  color: #00ff00;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-footer {
-  margin: 20px;
+p {
   font-size: 1.2em;
 }
 
